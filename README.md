@@ -2,6 +2,18 @@
 Desc
 <hr/>
 
+#### Software Lib & Feature
+
+- Cocoapods
+- RestApi
+- JSON
+- Alamofire
+- ImageSlideshow
+- Kingfisher
+- Struct
+
+<hr/>
+
 
 # Project Display Image
 <p>
