@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30398C81251422B200C215AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30398C80251422B200C215AE /* AppDelegate.swift */; };
+		30398C83251422B200C215AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30398C82251422B200C215AE /* SceneDelegate.swift */; };
+		30398C85251422B200C215AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30398C84251422B200C215AE /* ViewController.swift */; };
+		30398C88251422B200C215AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30398C86251422B200C215AE /* Main.storyboard */; };
+		30398C8A251422B600C215AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30398C89251422B600C215AE /* Assets.xcassets */; };
+		30398C8D251422B600C215AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30398C8B251422B600C215AE /* LaunchScreen.storyboard */; };
+		30398C952514288500C215AE /* JSonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30398C942514288500C215AE /* JSonData.swift */; };
+		306C6CC0251D44CB009B0A6F /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306C6CBF251D44CB009B0A6F /* ProductItem.swift */; };
+		306C6CC2251E270E009B0A6F /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306C6CC1251E270E009B0A6F /* Detail.swift */; };
+		306C6CC4251EA4DC009B0A6F /* JsonOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306C6CC3251EA4DC009B0A6F /* JsonOrder.swift */; };
+		306C6CC8251EB6AF009B0A6F /* OrderListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306C6CC7251EB6AF009B0A6F /* OrderListController.swift */; };
+		306C6CCA251EBB27009B0A6F /* JsonOrderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306C6CC9251EBB27009B0A6F /* JsonOrderList.swift */; };
+		9060A420B43A142211B3954C /* Pods_14_ServicesObject_Tekrar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B19C82BD0134A5A5859E290 /* Pods_14_ServicesObject_Tekrar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30398C7D251422B200C215AE /* 14-ServicesObject-Tekrar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "14-ServicesObject-Tekrar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30398C80251422B200C215AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30398C82251422B200C215AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		30398C84251422B200C215AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30398C87251422B200C215AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30398C89251422B600C215AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30398C8C251422B600C215AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30398C8E251422B600C215AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30398C942514288500C215AE /* JSonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSonData.swift; sourceTree = "<group>"; };
+		306C6CBF251D44CB009B0A6F /* ProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItem.swift; sourceTree = "<group>"; };
+		306C6CC1251E270E009B0A6F /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		306C6CC3251EA4DC009B0A6F /* JsonOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonOrder.swift; sourceTree = "<group>"; };
+		306C6CC7251EB6AF009B0A6F /* OrderListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListController.swift; sourceTree = "<group>"; };
+		306C6CC9251EBB27009B0A6F /* JsonOrderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonOrderList.swift; sourceTree = "<group>"; };
+		7B19C82BD0134A5A5859E290 /* Pods_14_ServicesObject_Tekrar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_14_ServicesObject_Tekrar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADEE4181F1C573753B30E885 /* Pods-14-ServicesObject-Tekrar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-14-ServicesObject-Tekrar.debug.xcconfig"; path = "Target Support Files/Pods-14-ServicesObject-Tekrar/Pods-14-ServicesObject-Tekrar.debug.xcconfig"; sourceTree = "<group>"; };
+		DE4CFD0C930C225C7E01F9DD /* Pods-14-ServicesObject-Tekrar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-14-ServicesObject-Tekrar.release.xcconfig"; path = "Target Support Files/Pods-14-ServicesObject-Tekrar/Pods-14-ServicesObject-Tekrar.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30398C7A251422B200C215AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9060A420B43A142211B3954C /* Pods_14_ServicesObject_Tekrar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30398C74251422B200C215AE = {
+			isa = PBXGroup;
+			children = (
+				30398C7F251422B200C215AE /* 14-ServicesObject-Tekrar */,
+				30398C7E251422B200C215AE /* Products */,
+				E45ACFAAE22CF2AA12E1983A /* Pods */,
+				DE4BE44EBDBDA0DFAAA68A54 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		30398C7E251422B200C215AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30398C7D251422B200C215AE /* 14-ServicesObject-Tekrar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30398C7F251422B200C215AE /* 14-ServicesObject-Tekrar */ = {
+			isa = PBXGroup;
+			children = (
+				30398C80251422B200C215AE /* AppDelegate.swift */,
+				30398C82251422B200C215AE /* SceneDelegate.swift */,
+				30398C84251422B200C215AE /* ViewController.swift */,
+				30398C86251422B200C215AE /* Main.storyboard */,
+				306C6CC7251EB6AF009B0A6F /* OrderListController.swift */,
+				306C6CC9251EBB27009B0A6F /* JsonOrderList.swift */,
+				306C6CC1251E270E009B0A6F /* Detail.swift */,
+				306C6CBF251D44CB009B0A6F /* ProductItem.swift */,
+				30398C89251422B600C215AE /* Assets.xcassets */,
+				30398C8B251422B600C215AE /* LaunchScreen.storyboard */,
+				30398C8E251422B600C215AE /* Info.plist */,
+				30398C942514288500C215AE /* JSonData.swift */,
+				306C6CC3251EA4DC009B0A6F /* JsonOrder.swift */,
+			);
+			path = "14-ServicesObject-Tekrar";
+			sourceTree = "<group>";
+		};
+		DE4BE44EBDBDA0DFAAA68A54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B19C82BD0134A5A5859E290 /* Pods_14_ServicesObject_Tekrar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E45ACFAAE22CF2AA12E1983A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADEE4181F1C573753B30E885 /* Pods-14-ServicesObject-Tekrar.debug.xcconfig */,
+				DE4CFD0C930C225C7E01F9DD /* Pods-14-ServicesObject-Tekrar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30398C7C251422B200C215AE /* 14-ServicesObject-Tekrar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30398C91251422B600C215AE /* Build configuration list for PBXNativeTarget "14-ServicesObject-Tekrar" */;
+			buildPhases = (
+				92A3AFFDC92718B230FECAC1 /* [CP] Check Pods Manifest.lock */,
+				30398C79251422B200C215AE /* Sources */,
+				30398C7A251422B200C215AE /* Frameworks */,
+				30398C7B251422B200C215AE /* Resources */,
+				87130CCBED69EF5D0133B2E7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "14-ServicesObject-Tekrar";
+			productName = "14-ServicesObject-Tekrar";
+			productReference = 30398C7D251422B200C215AE /* 14-ServicesObject-Tekrar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30398C75251422B200C215AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Mustafa Erden";
+				TargetAttributes = {
+					30398C7C251422B200C215AE = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 30398C78251422B200C215AE /* Build configuration list for PBXProject "14-ServicesObject-Tekrar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30398C74251422B200C215AE;
+			productRefGroup = 30398C7E251422B200C215AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30398C7C251422B200C215AE /* 14-ServicesObject-Tekrar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30398C7B251422B200C215AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30398C8D251422B600C215AE /* LaunchScreen.storyboard in Resources */,
+				30398C8A251422B600C215AE /* Assets.xcassets in Resources */,
+				30398C88251422B200C215AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87130CCBED69EF5D0133B2E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-14-ServicesObject-Tekrar/Pods-14-ServicesObject-Tekrar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-14-ServicesObject-Tekrar/Pods-14-ServicesObject-Tekrar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-14-ServicesObject-Tekrar/Pods-14-ServicesObject-Tekrar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92A3AFFDC92718B230FECAC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-14-ServicesObject-Tekrar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30398C79251422B200C215AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30398C85251422B200C215AE /* ViewController.swift in Sources */,
+				30398C952514288500C215AE /* JSonData.swift in Sources */,
+				306C6CC8251EB6AF009B0A6F /* OrderListController.swift in Sources */,
+				306C6CC2251E270E009B0A6F /* Detail.swift in Sources */,
+				306C6CC0251D44CB009B0A6F /* ProductItem.swift in Sources */,
+				30398C81251422B200C215AE /* AppDelegate.swift in Sources */,
+				306C6CC4251EA4DC009B0A6F /* JsonOrder.swift in Sources */,
+				306C6CCA251EBB27009B0A6F /* JsonOrderList.swift in Sources */,
+				30398C83251422B200C215AE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30398C86251422B200C215AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30398C87251422B200C215AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30398C8B251422B600C215AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30398C8C251422B600C215AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30398C8F251422B600C215AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30398C90251422B600C215AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30398C92251422B600C215AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADEE4181F1C573753B30E885 /* Pods-14-ServicesObject-Tekrar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7PQZU59D85;
+				INFOPLIST_FILE = "14-ServicesObject-Tekrar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mustafa.-4-ServicesObject-Tekrar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30398C93251422B600C215AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE4CFD0C930C225C7E01F9DD /* Pods-14-ServicesObject-Tekrar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7PQZU59D85;
+				INFOPLIST_FILE = "14-ServicesObject-Tekrar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mustafa.-4-ServicesObject-Tekrar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30398C78251422B200C215AE /* Build configuration list for PBXProject "14-ServicesObject-Tekrar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30398C8F251422B600C215AE /* Debug */,
+				30398C90251422B600C215AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30398C91251422B600C215AE /* Build configuration list for PBXNativeTarget "14-ServicesObject-Tekrar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30398C92251422B600C215AE /* Debug */,
+				30398C93251422B600C215AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30398C75251422B200C215AE /* Project object */;
+}
